@@ -8,3 +8,5 @@ cartpole1:
   network_sync_rate: 10  # How often to update target network
   discount_factor_g: 0.99 # How much the agent values future rewards(the further away the reward in steps, the less it is multiplied by, decreasing its value)
   learning_rate_a: 0.001 # After gradient tells which direction to move, this shows how big a step to take(large = unstable(might miss the best point), small = extremely slow)
+  stop_on_reward: 100000 # Stop training once this reward is reached
+  fc1_nodes: 10 # Number of nodes in first fully connected layer
