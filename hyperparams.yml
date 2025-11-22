@@ -1,12 +1,14 @@
 cartpole1:
   env_id: CartPole-v1
   replay_memory_size: 100000 # How many experiences to store(more = more learning, less = faster and smaller)
-  batch_size: 32  # How many experiemces to use for each training step(larger = stable learning, but slower)
+  batch_size: 64  # How many experiemces to use for each training step(larger = stable learning, but slower)
   epsilon_start: 1.0 #Epsilon start - 100% means the agent will explore fully at the start with random actions
   epsilon_decay: 0.9995 #Epsilon decay - how quickly to reduce exploration
   epsilon_min: 0.05 #Minimum value, stopping decay here. This makes sure some exploration always happens
-  network_sync_rate: 10  # How often to update target network
+  network_sync_rate: 100  # How often to update target network
   discount_factor_g: 0.99 # How much the agent values future rewards(the further away the reward in steps, the less it is multiplied by, decreasing its value)
   learning_rate_a: 0.001 # After gradient tells which direction to move, this shows how big a step to take(large = unstable(might miss the best point), small = extremely slow)
   stop_on_reward: 100000 # Stop training once this reward is reached
   fc1_nodes: 10 # Number of nodes in first fully connected layer
+
+  

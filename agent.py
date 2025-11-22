@@ -23,6 +23,7 @@ os.makedirs(RUNS_DIR, exist_ok=True)
 matplotlib.use('Agg')  # generate plots as images and save instead of displaying them.
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
+#device = "cpu"  # Force CPU usage
 
 class Agent: #configuration of hyperparameters from yaml file, uses Epsilon-Greedy policy for action selection, which means epsilon values
     def __init__(self, hyperparameters):
@@ -146,16 +147,16 @@ class Agent: #configuration of hyperparameters from yaml file, uses Epsilon-Gree
                 if ep_reward >= self.stop_on_reward:
                     print(f"Reached target reward of {self.stop_on_reward}!")
                     break
-            
-            if len(replay_memory) > self.batch_size:
                 
-                #get a sample from replay memory
-                minibatch = replay_memory.sample(self.batch_size) 
-                self.optimize(minibatch, policy_dqn, target_dqn)
-                
-                if step_ctr > self.network_sync_rate:
-                    target_dqn.load_state_dict(policy_dqn.state_dict())
-                    step_ctr = 0
+                if len(replay_memory) > self.batch_size:
+                    
+                    #get a sample from replay memory
+                    minibatch = replay_memory.sample(self.batch_size) 
+                    self.optimize(minibatch, policy_dqn, target_dqn)
+                    
+                    if step_ctr > self.network_sync_rate:
+                        target_dqn.load_state_dict(policy_dqn.state_dict())
+                        step_ctr = 0
     def save_graph(self, reward_history, epsilon_history):
         fig = plt.figure(figsize=(12, 5))
         
