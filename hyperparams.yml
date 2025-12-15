@@ -10,5 +10,27 @@ cartpole1:
   learning_rate_a: 0.001 # After gradient tells which direction to move, this shows how big a step to take(large = unstable(might miss the best point), small = extremely slow)
   stop_on_reward: 100000 # Stop training once this reward is reached
   fc1_nodes: 10 # Number of nodes in first fully connected layer
+  enable_double_dqn: false
+  use_prioritized_replay: false # Use prioritized experience replay (learns from important experiences more)
+flappy:
+  env_id: FlappyBird-v0
+  replay_memory_size: 50000 # Smaller memory = faster training with recent experiences
+  batch_size: 32 # Smaller batch for faster, more frequent updates
+  epsilon_start: 1.0 #Epsilon start - 100% means the agent will explore fully at the start with random actions
+  epsilon_decay: 0.998 #Faster exploration decay but not too aggressive
+  epsilon_min: 0.01 #Lower minimum for more exploitation
+  train_frequency: 4 # Train every 4 steps
+  gradient_steps: 1 # Single gradient update per training
+  network_sync_rate: 200  # Moderate sync rate
+  discount_factor_g: 0.99 # How much the agent values future rewards(the further away the reward in steps, the less it is multiplied by, decreasing its value)
+  learning_rate_a: 0.0003 # Moderate learning rate
+  stop_on_reward: 500 # Stop training once this reward is reached
+  fc1_nodes: 128 # Smaller, simpler network
+  enable_double_dqn: true
+  enable_dueling_dqn: false # Keep disabled for simplicity
+  use_prioritized_replay: false # Keep disabled for speed
+  env_make_params:
+    use_lidar: false
 
+  
   

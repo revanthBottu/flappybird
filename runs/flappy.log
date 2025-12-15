@@ -1,0 +1,29 @@
+Episode 0: New best reward -8.70 (previous -inf, +inf, time since last: 0h 0m 0s, total time: 0h 0m 0s). Saving model.
+Episode 1: New best reward -6.30 (previous -8.70, +2.40, time since last: 0h 0m 0s, total time: 0h 0m 0s). Saving model.
+Episode 34: New best reward -5.70 (previous -6.30, +0.60, time since last: 0h 0m 2s, total time: 0h 0m 3s). Saving model.
+Episode 37: New best reward -5.10 (previous -5.70, +0.60, time since last: 0h 0m 0s, total time: 0h 0m 3s). Saving model.
+Episode 42: New best reward -2.10 (previous -5.10, +3.00, time since last: 0h 0m 0s, total time: 0h 0m 3s). Saving model.
+Episode 49: New best reward -1.50 (previous -2.10, +0.60, time since last: 0h 0m 0s, total time: 0h 0m 4s). Saving model.
+Episode 147: New best reward 0.30 (previous -1.50, +1.80, time since last: 0h 0m 9s, total time: 0h 0m 13s). Saving model.
+Episode 188: New best reward 0.90 (previous 0.30, +0.60, +200.0%, time since last: 0h 0m 3s, total time: 0h 0m 17s). Saving model.
+Episode 260: New best reward 3.90 (previous 0.90, +3.00, +333.3%, time since last: 0h 0m 7s, total time: 0h 0m 25s). Saving model.
+Episode 389: New best reward 4.30 (previous 3.90, +0.40, +10.3%, time since last: 0h 0m 13s, total time: 0h 0m 38s). Saving model.
+Episode 417: New best reward 6.10 (previous 4.30, +1.80, +41.9%, time since last: 0h 0m 3s, total time: 0h 0m 41s). Saving model.
+Episode 602: New best reward 8.40 (previous 6.10, +2.30, +37.7%, time since last: 0h 0m 21s, total time: 0h 1m 2s). Saving model.
+Episode 695: New best reward 12.90 (previous 8.40, +4.50, +53.6%, time since last: 0h 0m 11s, total time: 0h 1m 13s). Saving model.
+Episode 1528: New best reward 13.20 (previous 12.90, +0.30, +2.3%, time since last: 0h 1m 45s, total time: 0h 2m 59s). Saving model.
+Episode 1535: New best reward 15.00 (previous 13.20, +1.80, +13.6%, time since last: 0h 0m 1s, total time: 0h 3m 0s). Saving model.
+Episode 2293: New best reward 15.80 (previous 15.00, +0.80, +5.3%, time since last: 0h 1m 51s, total time: 0h 4m 52s). Saving model.
+Episode 2299: New best reward 17.90 (previous 15.80, +2.10, +13.3%, time since last: 0h 0m 1s, total time: 0h 4m 54s). Saving model.
+Episode 2451: New best reward 37.30 (previous 17.90, +19.40, +108.4%, time since last: 0h 0m 25s, total time: 0h 5m 19s). Saving model.
+Episode 3087: New best reward 40.90 (previous 37.30, +3.60, +9.7%, time since last: 0h 2m 16s, total time: 0h 7m 35s). Saving model.
+Episode 3100: New best reward 54.90 (previous 40.90, +14.00, +34.2%, time since last: 0h 0m 4s, total time: 0h 7m 40s). Saving model.
+Episode 3410: New best reward 82.90 (previous 54.90, +28.00, +51.0%, time since last: 0h 1m 44s, total time: 0h 9m 25s). Saving model.
+Episode 4058: New best reward 124.90 (previous 82.90, +42.00, +50.7%, time since last: 0h 4m 29s, total time: 0h 13m 54s). Saving model.
+Episode 4175: New best reward 125.50 (previous 124.90, +0.60, +0.5%, time since last: 0h 0m 56s, total time: 0h 14m 51s). Saving model.
+Episode 4278: New best reward 139.30 (previous 125.50, +13.80, +11.0%, time since last: 0h 1m 3s, total time: 0h 15m 54s). Saving model.
+Episode 4474: New best reward 185.90 (previous 139.30, +46.60, +33.5%, time since last: 0h 1m 53s, total time: 0h 17m 48s). Saving model.
+Episode 4780: New best reward 233.10 (previous 185.90, +47.20, +25.4%, time since last: 0h 3m 36s, total time: 0h 21m 24s). Saving model.
+Episode 5537: New best reward 236.90 (previous 233.10, +3.80, +1.6%, time since last: 0h 12m 13s, total time: 0h 33m 38s). Saving model.
+Episode 8733: New best reward 283.90 (previous 236.90, +47.00, +19.8%, time since last: 0h 44m 6s, total time: 1h 17m 45s). Saving model.
+Episode 8914: New best reward 353.90 (previous 283.90, +70.00, +24.7%, time since last: 0h 2m 54s, total time: 1h 20m 39s). Saving model.

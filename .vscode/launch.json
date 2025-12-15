@@ -5,12 +5,13 @@
     "version": "0.2.0",
     "configurations": [
 
+
         {
-            "name": "Train cartpole1",
+            "name": "Train flappy",
             "type": "debugpy",
             "request": "launch",
             "program": "agent.py",
-            "args": ["cartpole1", "--train"],
+            "args": ["flappy", "--train"],
             "console": "integratedTerminal"
         }
     ]
